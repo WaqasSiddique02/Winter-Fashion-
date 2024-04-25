@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .denim-section {
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .denim-container {
+        margin-left: 20px;
+    }
+
+    .denim-person {
+        position: static;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .denim-text-area {
+        margin: 20px;
+        width: auto;
+        text-align: center;
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .mid-section {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-right {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-quote {
+        font-size: 24px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .main-section {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .text-below-quote {
+        font-size: 16px;
+    }
+
+    .sh-button button {
+        font-size: 16px;
+    }
+
+    .play-button button {
+        font-size: 20px;
+    }
+
+    .bottom-images {
+        margin-top: 30px;
+    }
+
+    .image1 h1, .image2 h1, .image3 h1 {
+        font-size: 30px;
+    }
+
+    .image1 button, .image2 button, .image3 button {
+        font-size: 18px;
+    }
+
+    .winter-collection {
+        margin-top: 100px;
+    }
+
+    .winter-heading h1 {
+        font-size: 36px;
+    }
+
+    .winter-collection p {
+        font-size: 18px;
+    }
+
+    .winter-stock {
+        margin-top: 50px;
+    }
+
+    .winter-stock button {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}

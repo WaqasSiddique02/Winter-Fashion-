@@ -1,0 +1,52 @@
+.footer{
+    background-color: rgb(17, 17, 17);
+    height: 200px;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns:400px 1fr;
+}
+
+.footer-left{
+    margin-left: 20px;
+}
+
+
+.footer-right{
+    margin-left: 70px;
+}
+
+.brand-logo{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.social-icons img{
+    width: 55px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.social-icons {
+    margin-left: 20px;
+}
+
+.footer-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 40px;
+    color: white;
+}
+
+.footer-right p{
+    font-family: arial;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-heading p{
+    font-size:18px ;
+}
+
+.footer-right p:hover{
+    color: rgb(133, 133, 133);
+}

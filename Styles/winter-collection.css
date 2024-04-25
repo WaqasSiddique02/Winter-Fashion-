@@ -1,0 +1,105 @@
+.winter-collection{
+    margin-top: 200px;
+}
+
+.winter-heading h1{
+    font-family: arial;
+    font-size: 56px;
+    text-align: center;
+}
+
+.winter-collection p{
+    font-family: arial;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(48, 48, 48);
+}
+
+.winter-stock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 1fr;
+    margin-left: 30px;
+    row-gap: 40px;
+    margin-top: 100px;
+}
+
+.winter-stock h3{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 540;
+}
+
+.winter-stock p{
+    text-align: left;
+    font-size: 17px;
+    color: rgb(49, 49, 49);
+    display: inline-block;
+}
+
+.winter-stock button{
+    height: 50px;
+    width: 40px;
+    font-size: 30px;
+    border-style: solid;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 230px;
+    margin-top: -20px;
+    display: inline-block;
+}
+
+.winter-stock button:hover{
+    background-color: black;
+    color: white;
+}
+
+.winter-stock button:active{
+    background-color: rgb(36, 36, 36);
+}
+
+@media (max-width: 768px) {
+    .winter-collection {
+        margin-top: 100px;
+    }
+    
+    .winter-heading h1 {
+        font-size: 36px;
+    }
+    
+    .winter-collection p {
+        font-size: 18px;
+    }
+    
+    .winter-stock {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        row-gap: 20px;
+        margin-top: 50px;
+    }
+    
+    .winter-stock button {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 769px) {
+    .winter-collection {
+        margin-top: 200px;
+    }
+    
+    .winter-heading h1 {
+        font-size: 56px;
+    }
+    
+    .winter-collection p {
+        font-size: 22px;
+    }
+    
+    .winter-stock {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+}

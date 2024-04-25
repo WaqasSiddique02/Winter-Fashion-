@@ -1,0 +1,103 @@
+.trendy-collections{
+    margin-top: 150px;
+}
+
+.trendy-heading{
+    font-family: arial;
+    font-size: 50px;
+    margin-left:30px ;
+    color: rgb(24, 24, 24);
+}
+
+.trendy-coll-main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.side-bar{
+    margin-top: 70px;
+    background-color: rgb(233, 227, 227);
+    width: 350px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+.side-bar p{
+    font-family: arial;
+    font-size:18px;
+    margin-top: 35px;
+    font-weight: lighter;
+    margin-left:30px ;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+.side-bar p:hover{
+    color: black;
+}
+
+.side-bar h2{
+    font-family: arial;
+    font-size:25px;
+    font-weight: 550;
+    margin-bottom: 40px;
+    margin-left:30px ;
+    color: rgb(24, 24, 24);
+}
+
+.trendy-stock{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.trendy-stock img{
+    height: 300px;
+    margin-left: 30px;
+}
+
+.trendy-stock h3{
+    font-family: arial;
+    font-size: 19px;
+    margin-top: 23px;
+    margin-left: 30px;
+}
+
+.trendy-stock p{
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 8px;
+    color: rgb(105, 105, 105);
+}
+
+.trendy-stock button{
+    height: 50px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border: none;
+}
+
+.stock-btn{
+    position: relative;
+    right: -280px;
+    top: -60px;
+    display: inline-block;
+}
+
+.stock-btn button{
+    cursor: pointer;
+}
+
+.stock-btn button:hover{
+    background-color: rgb(185, 183, 183);
+    color: black;
+}
+
+.stock-btn button:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+}

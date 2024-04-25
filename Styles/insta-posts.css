@@ -1,0 +1,109 @@
+.insta-posts{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 225, 230);
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+.insta-center-div h1{
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.insta-left-div{
+    margin-left: 50px;
+}
+
+.insta-left-div button{
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: arial;
+    font-size: 25px;
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.insta-left-div button:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+.insta-left-div button:active{
+    background-color: rgb(92, 92, 92);
+}
+
+@media (max-width: 768px) {
+    .insta-posts {
+        grid-template-columns: 1fr;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .insta-center-div h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .insta-left-div {
+        margin-left: 20px;
+    }
+
+    .insta-left-div button {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+    .insta-posts {
+        margin-top: 30px;
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .insta-center-div h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .insta-left-div {
+        margin-left: 30px;
+    }
+
+    .insta-left-div button {
+        font-size: 22px;
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 1367px) {
+    .insta-posts {
+        margin-top: 50px;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .insta-center-div h1 {
+        font-size: 50px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    .insta-left-div {
+        margin-left: 50px;
+    }
+
+    .insta-left-div button {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+}

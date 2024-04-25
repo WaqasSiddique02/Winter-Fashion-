@@ -1,0 +1,67 @@
+.denim-section{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(197, 252, 234);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.denim-img{
+    height: 500px;
+}
+
+.denim-container{
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.denim-person img{
+   width: 510px;
+}
+
+.denim-person{
+    position: absolute;
+    top: 40px;
+    left: -60px;
+}
+
+.denim-text-area{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 600px;
+}
+
+.denim-text-area h1{
+    font-family: arial;
+    font-size: 60px;
+}
+
+.denim-text-area p{
+    font-family: arial;
+    font-size:25px;
+    margin-top: 40px;
+    color: rgb(112, 112, 112);
+}
+
+.denim-text-area img{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.learn-container{
+    position: relative;
+}
+
+.learn-btn{
+    position: absolute;
+    top:10px;
+    left:25px;
+}
+
+.learn-btn p{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}

@@ -1,0 +1,230 @@
+.main-section{
+    height: 500px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+.main-quote{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+
+}
+
+.text-below-quote{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.main-right-side1{
+    position: relative;
+    margin-left:210px ;
+}
+
+.main-right-side2{
+    position: absolute;
+    top: -40px;
+    right: 50px;
+}
+
+.dot-img{
+    margin-top: 40px;
+    margin-left: 190px;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.shop-button{
+    position: relative;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.sh-button{
+    position: absolute;
+    top: 0;
+    left: 18px;
+    margin-top: 10px;
+}
+
+.sh-button button{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.play-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.play-button button{
+    padding: 10px;
+    font-family: arial;
+    font-size: 25px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.play-button button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.15s;
+}
+
+.play-button button:active{
+    background-color: rgb(36, 36, 36);
+}
+
+.play-button img{
+    height: 70px;
+    border-radius: 50%;
+}
+
+.bottom-images{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.image1,.image2,.image3{
+    height: 250px;
+    width: 350px;
+}
+
+.image1{
+    background: url("../Images/bottom\ imgs\ \(3\).png");
+    background-repeat: no-repeat;
+    margin-right: 70px;
+}
+
+.image2{
+    background: url("../Images/bottom\ imgs\ \(2\).png");
+    background-repeat: no-repeat;
+}
+
+.image3{
+    background: url("../Images/bottom\ imgs\ \(1\).png");
+    background-repeat: no-repeat;
+    margin-left: 70px;
+}
+
+.image1 h1,.image2 h1,.image3 h1{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: -15px;
+}
+
+.image1 button,.image2 button,.image3 button {
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image1 button:hover,.image2 button:hover,.image3 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.image1 button:active,.image2 button:active,.image3 button:active{
+    background-color: rgb(41, 39, 39);
+}
+
+@media only screen and (max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+    
+    .main-quote {
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .main-right-side1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .dot-img {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .main-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bottom-images {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main-quote {
+        font-size: 24px;
+    }
+    
+    .text-below-quote {
+        font-size: 16px;
+    }
+    
+    .sh-button button {
+        font-size: 16px;
+    }
+    
+    .play-button button {
+        font-size: 20px;
+    }
+    
+    .image1 h1,
+    .image2 h1,
+    .image3 h1 {
+        font-size: 30px;
+    }
+    
+    .image1 button,
+    .image2 button,
+    .image3 button {
+        font-size: 18px;
+    }
+}
